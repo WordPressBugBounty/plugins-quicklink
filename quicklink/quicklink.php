@@ -3,14 +3,14 @@
  * The main file of the Quicklink for WordPress plugin
  *
  * @package quicklink
- * @version 0.10.1
+ * @version 0.10.4
  *
  * Plugin Name: Quicklink for WordPress
  * Plugin URI: https://wordpress.org/plugins/quicklink/
  * Description: ⚡️ Faster subsequent page-loads by prefetching in-viewport links during idle time.
  * Author: WP Munich
  * Author URI: https://www.wp-munich.com/?utm_source=wporg&utm_medium=plugin_repo&utm_campaign=description&utm_content=quicklink
- * Version: 0.10.1
+ * Version: 0.10.4
  * Text Domain: quicklink
  */
 
@@ -31,7 +31,7 @@ function quicklink_enqueue_scripts() {
 		return;
 	}
 
-	wp_enqueue_script( 'quicklink', '', array(), '0.10.1', true );
+	wp_enqueue_script( 'quicklink', '', array(), '0.10.4', true );
 
 	$options = array(
 		// CSS selector for the DOM element to observe for in-viewport links to prefetch.
@@ -158,7 +158,7 @@ add_action( 'init', 'quicklink_plugin_compatibility_files' );
  * @return void
  */
 function quicklink_to_default_scripts( $scripts ) {
-	$scripts->add( 'quicklink', QUICKLINK_URL . 'quicklink.min.js', array(), '0.10.1' );
+	$scripts->add( 'quicklink', QUICKLINK_URL . 'quicklink.min.js', array(), '0.10.4' );
 }
 add_action( 'wp_default_scripts', 'quicklink_to_default_scripts' );
 

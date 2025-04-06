@@ -45,7 +45,6 @@
 /******/ 	}();
 /******/ 	
 /************************************************************************/
-var __webpack_exports__ = {};
 
 // NAMESPACE OBJECT: ./node_modules/quicklink/dist/quicklink.mjs
 var quicklink_namespaceObject = {};

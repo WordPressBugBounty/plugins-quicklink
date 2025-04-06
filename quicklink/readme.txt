@@ -1,11 +1,11 @@
 === Quicklink for WordPress ===
 
 Contributors: wpmunich, google, luehrsen, westonruter
-Tags: performance, speed, fast, prefetch, seo, http2, preconnect, optimization
+Tags: performance, speed, fast, prefetch, optimization
 Requires at least: 4.9
-Tested up to: 6.4.3
+Tested up to: 6.7.2
 Requires PHP: 5.6
-Stable tag: 0.10.1
+Stable tag: 0.10.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -53,6 +53,9 @@ Slowing down the site is highly unlikely, but possible. If this plugin is used w
 You should fist check, that a good caching plugin like "WP Super Cache", "W3 Total Cache" or "WP Rocket" is enabled. If this is not enough you can always add exception rules to the Quicklink configuration by modifying the 'quicklink_options' filter.
 
 == Changelog ==
+
+= 0.10.4 =
+* General maintenance for the repository
 
 = 0.10.0 =
 * General maintenance for the repository
